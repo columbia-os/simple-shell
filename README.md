@@ -87,7 +87,7 @@ Write a simple shell in C. The requirements are as follows.
 2. **The shell should run continuously, and display a prompt when waiting for input.** The prompt should be EXACTLY '$'. No spaces, no extra characters. Example with a command:
 
     ```sh
-    $ /bin/ls -lha /home/pc/my_pokemon
+    $/bin/ls -lha /home/pc/my_pokemon
     ```
 
 3. **Your shell should read a line from stdin one at a time.** This line should be parsed out into a *command* and *all its arguments*. In other words, tokenize it.
