@@ -125,7 +125,7 @@ should terminate, but your shell should not terminate.
 
 [errno]: https://linux.die.net/man/3/errno
 [error-reporting]: https://www.gnu.org/software/libc/manual/html_mono/libc.html#Error-Reporting
-[testing-repo]: https://github.com/columbia-os-hw/s25-tester-hw2
+[testing-repo]: https://github.com/columbia-os-hw-s2026/s26-tester-hw2
 
 ## Part 2: Simple Shell Directly Calling System Calls
 The simple shell you wrote in Part 1 relies on various C library functions that in turn call system calls. You can use `strace` to see what system calls are being called when you run your simple shell. First, install `strace`:
