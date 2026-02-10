@@ -6,7 +6,7 @@
 
 ## Submission
 
-As with previous assignments, we will be using GitHub Classroom to distribute skeleton code and collect submissions. You can create your GitHub repository for this assignment at this [link]().
+As with previous assignments, we will be using GitHub Classroom to distribute skeleton code and collect submissions. You can create your GitHub repository for this assignment at this [link](https://classroom.github.com/a/d7e6eR_i).
 
 You need to have at least 5 git commits total, but we encourage you to have many more. All your work should be committed to the `main` branch.
 
