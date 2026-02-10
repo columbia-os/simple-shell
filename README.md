@@ -56,11 +56,11 @@ cd "$(git rev-parse --show-toplevel)" && touch .armpls && git add -f .armpls && 
 1. For this assignment, it may be helpful to refer to [Programming in C][prog-in-c]. You might also find the [Glibc Manual][glibc-manual] useful.
 2.  Many questions about functions and system behaviour can be found in the system manual pages; type in `man function` to get more
 information about function. If function is a system call, `man 2 function` can ensure that you receive the correct man page, rather than
-one for a system utility of the same name.
+one for a system utility of the same name (if you using neovim, put your cursor over the function you want to get man page for, then type `ESC`, and then `shift + K`).
 3.  If you are having trouble with basic Unix/Linux behavior, you might want to check out the resources section of the class webpage.
 4.  A lot of your problems have happened to other people. Don't forget to google strange error messages first!
 
-[prog-in-c]: https://users.cs.cf.ac.uk/Dave.Marshall/C/CE.html
+[prog-in-c]: https://www4.cs.fau.de/Services/Doc/C/www.cm.cf.ac.uk/Dave/C/CE.html
 [glibc-manual]: https://www.gnu.org/software/libc/manual/
 
 ## Part 1: The Simple Shell
