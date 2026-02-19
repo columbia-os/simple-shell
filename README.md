@@ -100,7 +100,7 @@ Write a simple shell in C. The requirements are as follows.
     - You may **NOT** use the `system()` function, as it just invokes the `/bin/sh` shell to do all the work.
 
 5. **Ensure Ctrl-C works.** Typing Ctrl-C in your shell should function as expected. If a command is running, the command
-should terminate, but your shell should not terminate.
+should terminate, but your shell should not terminate. ** YOU DO NOT NEED TO PRINT ON A NEW LINE AFTER THIS **
 
 6. **Implement Built-in Commands, `exit` and `cd`.** `exit` simply exits your shell after performing any necessary clean up. `cd` [dir], short for "change directory", changes the current working directory of your shell. Do not worry about implementing the command line options that the real cd command has in Bash. Just implement cd such that it takes a single command line parameter: the directory to change to. cd should be done by invoking `chdir()`.
 
